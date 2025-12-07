@@ -8,3 +8,8 @@ if (umur < 21) {
 } else if (umur >= 21) {
     uang = prompt('');
 } 
+if (uang > 500000) {
+    console.log('Selamat datang ' + nama);
+} else {
+    console.log('Maaf ' + nama + ' uang kamu cuma ' + uang + ' datang lagi lain kali.');
+}
